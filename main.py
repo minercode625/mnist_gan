@@ -35,7 +35,7 @@ transform = transforms.Compose(
 
 # MNIST dataset
 mnist = torchvision.datasets.MNIST(
-    root="../../data/", train=True, transform=transform, download=True
+    root="./data/", train=True, transform=transform, download=True
 )
 
 # Data loader
